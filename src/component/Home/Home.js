@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './Home.css';
 // import '../../ScrollBar.css';
 import me from '../../images/me.png';
+import node from "../../images/node.svg";
 import html from '../../images/html.svg';
 import css from '../../images/css.svg';
 import react from '../../images/react.svg';
@@ -45,7 +46,7 @@ const Home = () => {
                             <div className='bottomstack'>
 
                             <div title='React'><img src={react}></img></div>
-                            <div title='Tailwind CSS'><img src={tcss}></img></div>
+                            <div title='Node JS'><img src={node}></img></div>
                             </div>
                         </div>
                     </div>
