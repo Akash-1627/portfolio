@@ -2,12 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import './Projects.css';
 // import '../../ScrollBar.css';
 import demoimage from '../../images/me.png';
+import node from "../../images/node.svg";
 import react from '../../images/react.svg';
 import firebase from '../../images/firebase.svg';
 import css from '../../images/css.svg';
 import javascript from '../../images/js.svg';
 
-import unotes from '../../images/unotes.mp4';
+import vitalVault from '../../images/Vital Vault Video.mkv';
 import coinworld from '../../images/coinworld.mp4';
 import webchat from '../../images/webchat.mp4';
 
@@ -56,19 +57,21 @@ const handleMouseLeave2 = () =>{
                         <div className='projectleft'>
                             <div className='image' onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
 
-                            <video ref={videoRef1} muted src={unotes}></video>
+                            <video ref={videoRef1} muted src={vitalVault}></video>
                             </div>
                         </div>
                         <div className='projectright'>
-                            <h2>uNotes📋<hr/></h2>
-                            <p>uNotes is a javascript based notes📄 website where we can create🔨 as well as keep a track📌 of our important notes in a single page📝.</p>
+                            <h2>Vital Vault🗳️<hr/></h2>
+                            <p>Vital vault is a Full Stack Health Care💉 Data Management System🧑‍⚕️ where all
+                                the healthcare data of patients❤️‍🩹 can be stored📥 and retrieved📤 as
+                                per user’s and organisation’s needs.</p>
                             <div className='techused'>
-                                <div className='tech'>CSS3&nbsp;<img src={css}></img></div>
-                                <div className='tech'>JavaScript&nbsp;<img src={javascript}></img></div>
+                                <div className='tech'>React&nbsp;<img src={react}></img></div>
+                                <div className='tech'>NodeJS&nbsp;<img src={node}></img></div>
                             </div>
                             <div className='navbuttons'>
-                                <a target='_blank' href='https://github.com/Akash-1627/uNotes'><div className='codebutton'>Code&nbsp;<i className='bx bxl-github'></i></div></a>
-                                <a target='_blank' href='https://akash-1627.github.io/uNotes/'><div className='demobutton'>Live Demo&nbsp;<i className='bx bx-link-external'></i></div></a>
+                                <a target='_blank' href='https://github.com/Akash-1627/api_avengers'><div className='codebutton'>Code&nbsp;<i className='bx bxl-github'></i></div></a>
+                                <a target='_blank' href='https://api-avengers-frontend.vercel.app/'><div className='demobutton'>Live Demo&nbsp;<i className='bx bx-link-external'></i></div></a>
                             </div>
                             
 
@@ -79,7 +82,30 @@ const handleMouseLeave2 = () =>{
                         <div className='projectleft'>
                             <div className='image' onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
 
-                                <video ref={videoRef2} muted src={coinworld}></video>
+                                <video ref={videoRef2} muted src={webchat}></video>
+                            </div>
+                        </div>
+                        <div className='projectright'>
+                            <h2>WebChat📲<hr/></h2>
+                            <p>It is a Firebase maintained Chat🧑‍💻 Application through which user can send / receive chats📄 and images🌅 from various users.</p>
+                            <div className='techused'>
+                                <div className='tech'>React&nbsp;<img src={react}></img></div>
+                                <div className='tech'>Firebase&nbsp;<img src={firebase}></img></div>
+                            </div>
+                            <div className='navbuttons'>
+                                <a target='_blank' href='https://github.com/Akash-1627/WebChat'><div className='codebutton'>Code&nbsp;<i className='bx bxl-github'></i></div></a>
+                                <a target='_blank' href='https://akash-1627.github.io/WebChat/'><div className='demobutton'>Live Demo&nbsp;<i className='bx bx-link-external'></i></div></a>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+
+                    <div className='projectcontent'>
+                        <div className='projectleft'>
+                            <div className='image' onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}>
+
+                            <video ref={videoRef3} muted src={coinworld}></video>
                             </div>
                         </div>
                         <div className='projectright'>
@@ -98,28 +124,7 @@ const handleMouseLeave2 = () =>{
                         </div>
                     </div>
 
-                    <div className='projectcontent'>
-                        <div className='projectleft'>
-                            <div className='image' onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}>
 
-                            <video ref={videoRef3} muted src={webchat}></video>
-                            </div>
-                        </div>
-                        <div className='projectright'>
-                            <h2>WebChat📲<hr/></h2>
-                            <p>It is a Firebase maintained Chat🧑‍💻 Application through which user can send / receive chats📄 and images🌅 from various users.</p>
-                            <div className='techused'>
-                                <div className='tech'>React&nbsp;<img src={react}></img></div>
-                                <div className='tech'>Firebase&nbsp;<img src={firebase}></img></div>
-                            </div>
-                            <div className='navbuttons'>
-                                <a target='_blank' href='https://github.com/Akash-1627/WebChat'><div className='codebutton'>Code&nbsp;<i className='bx bxl-github'></i></div></a>
-                                <a target='_blank' href='https://akash-1627.github.io/WebChat/'><div className='demobutton'>Live Demo&nbsp;<i className='bx bx-link-external'></i></div></a>
-                            </div>
-                            
-
-                        </div>
-                    </div>
                 </div>
             </div>
             
