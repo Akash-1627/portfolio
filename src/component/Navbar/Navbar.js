@@ -27,7 +27,7 @@ const Navbar = () => {
         };
     return (
         <header>
-            <h3><a href="/">Akash.dev</a></h3>
+            <h3><a href="/portfolio">Akash.dev</a></h3>
             <nav ref={navref}>
                 <a className='hover' onClick={() => {scrollToSection('home',100); shownavbar()}}>Home</a>
                 <a className='hover' onClick={() => {scrollToSection('about',100); shownavbar()}}>About</a>
