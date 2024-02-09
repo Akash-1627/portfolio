@@ -21,7 +21,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    height: 80px;
+    height: 60px;
     padding: 0 2rem;
     /* background-color: #130749; */
     
@@ -75,7 +75,7 @@ nav .hover{
     font-size: 1.4rem;
     font-weight: 600;
     cursor: pointer;
-    /* transition: 0.3s ease; */
+    /* transition: 0.3s ease;i */
     
 }
 nav .hover:hover{
@@ -106,7 +106,7 @@ nav .nav-close-btn{
     content: '';
     color: #fff;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 984px) {
     header .nav-btn{
         visibility: visible;
         opacity: 1;

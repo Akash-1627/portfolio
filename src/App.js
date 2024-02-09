@@ -8,10 +8,12 @@ import Resume from './component/Resume/Resume';
 import Projects from './component/Projects/Projects';
 import Contact from './component/Contact/Contact';
 import Footer from './component/Footer/Footer';
+import Particle from './component/Particle';
 
 function App() {
   return (
     <div className='main'>
+      <Particle />
       <Navbar/>
       <Home/>
       <About/>

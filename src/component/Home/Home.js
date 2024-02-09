@@ -19,8 +19,8 @@ const Home = () => {
                     <div className='hometop'>
 
                         <div className='homeleft'>
-                            <h1 className='intro'>Front-End Web Developer ✌</h1>
-                            <p>Hi👋, I'm Akash Chakraborty. A 💪passionate Front-End Web Developer💻 based in Punjab, India❤️.</p>
+                            <h1 className='intro'>Full Stack Web Developer ✌</h1>
+                            <p>Hi👋, I'm Akash Chakraborty. A 💪passionate Full Stack Web Developer💻 based in Punjab, India❤️.</p>
                             <div className='social'>
                                 <a target='_blank' href='https://github.com/Akash-1627' title='Github'><i className='bx bxl-github'></i></a>
                                 <a target='_blank' href='https://www.linkedin.com/in/akash-chakraborty-463830219/' title='LinkedIn'><i className='bx bxl-linkedin-square'></i></a>

@@ -20,7 +20,7 @@ body{
     justify-content: center;
     width: 100%;
     z-index: 1;
-    margin-top: 12rem;
+    margin-top: 6rem;
     /* margin-bottom: 2rem; */
 }
 .resume .resumedata{
@@ -62,7 +62,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 210px;
     border: 1px solid #111;
     padding: 0.2rem 0.4rem;
@@ -279,7 +279,7 @@ hr{
 }
 .education .educ .educdata .educcontent ul{
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
     
 }
 .education .educ .educdata .educcontent ul li{
@@ -321,18 +321,18 @@ hr{
     background-color: rgb(66, 66, 174);
     z-index: 1;
 }
-.skill .bar .html{
-    width: 95%;
-}
-.skill .bar .css{
+.skill .bar .react{
     width: 90%;
+}
+.skill .bar .node{
+    width: 85%;
 }
 .skill .bar .js{
     width: 80%;
 }
-.skill .bar .react{
+.skill .bar .mongo{
     width: 85%;
 }
-.skill .bar .tcss{
-    width: 75%;
+.skill .bar .express{
+    width: 90%;
 }

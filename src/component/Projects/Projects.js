@@ -66,6 +66,7 @@ const handleMouseLeave2 = () =>{
                                 the healthcare data of patients❤️‍🩹 can be stored📥 and retrieved📤 as
                                 per user’s and organisation’s needs.</p>
                             <div className='techused'>
+                                <div className='techHead'>Tech Used<span>&nbsp;&nbsp; |</span></div>
                                 <div className='tech'>React&nbsp;<img src={react}></img></div>
                                 <div className='tech'>NodeJS&nbsp;<img src={node}></img></div>
                             </div>
@@ -89,6 +90,7 @@ const handleMouseLeave2 = () =>{
                             <h2>WebChat📲<hr/></h2>
                             <p>It is a Firebase maintained Chat🧑‍💻 Application through which user can send / receive chats📄 and images🌅 from various users.</p>
                             <div className='techused'>
+                            <div className='techHead'>Tech Used<span>&nbsp;&nbsp; |</span></div>
                                 <div className='tech'>React&nbsp;<img src={react}></img></div>
                                 <div className='tech'>Firebase&nbsp;<img src={firebase}></img></div>
                             </div>
@@ -112,6 +114,7 @@ const handleMouseLeave2 = () =>{
                             <h2>CoinWorld🪙<hr/></h2>
                             <p>CoinWorld is a web based crypto💲 tracking website that allows users to search🔍 information about various cryptocurrencies in real-time.</p>
                             <div className='techused'>
+                            <div className='techHead'>Tech Used<span>&nbsp;&nbsp; |</span></div>
                                 <div className='tech'>React&nbsp;<img src={react}></img></div>
                                 <div className='tech'>CSS3&nbsp;<img src={css}></img></div>
                             </div>
