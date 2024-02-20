@@ -157,7 +157,7 @@ body{
 }
 .drop{
     /* position: relative; */
-    width: 330px;
+    width: 316.8px;
     height: 330px;
     box-shadow: 20px 20px 20px rgba(0,0,0,0.1),
     25px 35px 20px rgba(0,0,0,0.1),
@@ -224,7 +224,7 @@ body{
   }
   #image img{
     height: 330px;
-    width: 330px;
+    width: 316.8px;
     /* border-radius: 57% 43% 43% 57% / 43% 44% 56% 57%; */
     animation: animate 5s linear infinite;
     @media (max-width: 680px) {

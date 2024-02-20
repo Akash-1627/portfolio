@@ -12,7 +12,7 @@ const DownloadButton = ({ pdfUrl, fileName }) => {
   };
 
   return (
-    <button className="downloadBtn" onClick={handleDownload}>
+    <button className="downloadBtn" onClick={handleDownload} title="resumeDownload">
       Download Resume
     </button>
   );

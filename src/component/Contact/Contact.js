@@ -83,7 +83,7 @@ const Contact = () => {
                                 </div>
                                 <input className='email' type='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Your E-Mail' required></input>
                                 <textarea className='textarea' value={message} onChange={(e) => setMessage(e.target.value)} rows="10" placeholder='Your Message'></textarea>
-                                <button disabled={loading}>{loading ? (<ThreeDots color="#111" height={20} width={30} /> ) : (  'Send' )}</button>
+                                <button disabled={loading} title='loadButton'>{loading ? (<ThreeDots color="#111" height={20} width={30} /> ) : ( 'Send' )}</button>
                                 {successMessage && <div className='message'><p>{successMessage}</p></div>}
 
                             </form>

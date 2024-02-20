@@ -34,11 +34,11 @@ const Navbar = () => {
                 <a className='hover' onClick={() => {scrollToSection('resume',100); shownavbar()}}>Resume</a>
                 <a className='hover' onClick={() => {scrollToSection('projects',100); shownavbar()}}>Projects</a>
                 <a className='hover' onClick={() => {scrollToSection('contact',100); shownavbar()}}>Contact</a>
-                <button className='nav-btn nav-close-btn' onClick={shownavbar}>
+                <button className='nav-btn nav-close-btn' onClick={shownavbar} title='faTimes'>
                     <FaTimes />
                 </button>
             </nav>
-            <button className='nav-btn' onClick={shownavbar}>
+            <button className='nav-btn' onClick={shownavbar} title='faBars'>
                 <FaBars />
             </button>
             

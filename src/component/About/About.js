@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './About.css';
-// import '../../ScrollBar.css';
-import aboutimage from '../../images/me_new.jpeg';
+import aboutimage from '../../images/me_new.webp';
 
 
 const About = () => {
@@ -16,7 +15,7 @@ const About = () => {
                     <div className='aboutcontent'>
 
                         <div className='aboutleft'>
-                            <img src={aboutimage}></img>
+                            <img loading='lazy' src={aboutimage} alt='myPhoto'></img>
                         </div>
                         <div className='aboutright'>
                             
