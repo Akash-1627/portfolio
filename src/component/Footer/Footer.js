@@ -7,7 +7,7 @@ const Footer = () => {
         <>
             <div className='footer'>
                 <div className='footerdata'>
-                    <p>2023 all rights reserved | copyright @<span>Akash Chakraborty</span></p>
+                    <p>Created and maintained by <span>Akash Chakraborty</span></p>
                 </div>
             </div>
             

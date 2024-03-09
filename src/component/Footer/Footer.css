@@ -19,7 +19,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: #444;
+    background-color: transparent;
     z-index: 1;
     margin-top: 5rem;
     /* margin-bottom: 5rem; */
@@ -42,7 +42,7 @@ body{
     }
 }
 .footer .footerdata p{
-    color: #fff;
+    color: #444;
     letter-spacing: 1px;
     font-size: 1.1rem;
     font-weight: 400;

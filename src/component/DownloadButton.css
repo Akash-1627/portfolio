@@ -2,11 +2,11 @@
     padding: 0.5rem;
     width: 15vw;
     margin-top: 0.7rem;
-    background-color: transparent;
+    background-color: #690cc9;
     cursor: pointer;
-    border: 2px solid rgb(66, 66, 174);
+    border: 2px solid #690cc9;
     border-radius: 4px;
-    color: rgb(66, 66, 174);
+    color: #fff;
     font-size: 1rem;
     transition: all 0.2s ease-in-out;
     @media (max-width: 536px) {
@@ -20,5 +20,6 @@
     }
 }
 .downloadBtn:hover{
-    background-color: #e0e0e0;
+    background-color: transparent;
+    color: #690cc9;
 }

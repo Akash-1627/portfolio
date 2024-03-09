@@ -306,33 +306,41 @@ hr{
     padding: 0.3rem 0.1rem;
 }
 .skill .data h4{
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 500;
     color: #555;
     cursor: pointer;
 }
 .skill .bar{
-    height: 0.7rem;
+    height: 0.5rem;
     width: 100%;
-    background-color: #c2bfbf;
+    border-radius: 6px;
+    background-color: #f1f1f1;
 }
 .skill .bar .progressbar{
     /* width: 80%; */
-    height: 0.7rem;
-    background-color: rgb(66, 66, 174);
+    height: 0.5rem;
+    border-radius: 6px;
+    background-color: #690cc9;
     z-index: 1;
 }
 .skill .bar .react{
+    /* background-color: #76ba1b; */
     width: 90%;
 }
 .skill .bar .node{
+    background-color: orangered;
     width: 85%;
 }
 .skill .bar .js{
+    background-color: #76ba1b;
     width: 80%;
 }
 .skill .bar .mongo{
+    background-color: #ff3aae;
     width: 85%;
 }
 .skill .bar .express{
+    background-color: brown;
     width: 90%;
 }

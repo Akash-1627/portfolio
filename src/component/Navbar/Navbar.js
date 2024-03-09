@@ -7,6 +7,7 @@ const Navbar = () => {
     const navref = useRef();
 
     const shownavbar = () => {
+        // e.preventDefault();
         navref.current.classList.toggle("responsive-nav");
     }
 

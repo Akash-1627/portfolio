@@ -13,7 +13,7 @@ import Particle from './component/Particle';
 function App() {
   return (
     <div className='main'>
-      <Particle />
+      {/* <Particle /> */}
       <Navbar/>
       <Home/>
       <About/>

@@ -62,8 +62,8 @@ const handleMouseLeave2 = () =>{
                         </div>
                         <div className='projectright'>
                             <h2>Vital Vault🗳️<hr/></h2>
-                            <p>Vital vault is a Full Stack Health Care💉 Data Management System🧑‍⚕️ where all
-                                the healthcare data of patients❤️‍🩹 can be stored📥 and retrieved📤 as
+                            <p>Vital vault is a Full Stack Health Care Data Management System where all
+                                the healthcare data of patients can be stored and retrieved as
                                 per user’s and organisation’s needs.</p>
                             <div className='techused'>
                                 <div className='techHead'>Tech Used<span>&nbsp;&nbsp; |</span></div>
@@ -88,7 +88,7 @@ const handleMouseLeave2 = () =>{
                         </div>
                         <div className='projectright'>
                             <h2>WebChat📲<hr/></h2>
-                            <p>It is a Firebase maintained Chat🧑‍💻 Application through which user can send / receive chats📄 and images🌅 from various users.</p>
+                            <p>It is a Firebase maintained Chat Application through which user can send / receive chats and images from various users.</p>
                             <div className='techused'>
                             <div className='techHead'>Tech Used<span>&nbsp;&nbsp; |</span></div>
                                 <div className='tech'>React&nbsp;<img src={react} alt='react'></img></div>
@@ -112,7 +112,7 @@ const handleMouseLeave2 = () =>{
                         </div>
                         <div className='projectright'>
                             <h2>CoinWorld🪙<hr/></h2>
-                            <p>CoinWorld is a web based crypto💲 tracking website that allows users to search🔍 information about various cryptocurrencies in real-time.</p>
+                            <p>CoinWorld is a web based crypto tracking website that allows users to search information about various cryptocurrencies in real-time.</p>
                             <div className='techused'>
                             <div className='techHead'>Tech Used<span>&nbsp;&nbsp; |</span></div>
                                 <div className='tech'>React&nbsp;<img src={react} alt='reract'></img></div>
