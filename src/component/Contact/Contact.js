@@ -79,7 +79,7 @@ const Contact = () => {
                             <form onSubmit={handleSubmit}>
                                 <div className='namebar'>
                                     <input type='text' value={firstName} onChange={(e) => setfirstName(e.target.value)} placeholder='First Name' required></input>
-                                    <input type='text' value={lastName} onChange={(e) => setlastName(e.target.value)} placeholder='Last Name'></input>
+                                    <input className='lastNameInput' type='text' value={lastName} onChange={(e) => setlastName(e.target.value)} placeholder='Last Name'></input>
                                 </div>
                                 <input className='email' type='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Your E-Mail' required></input>
                                 <textarea className='textarea' value={message} onChange={(e) => setMessage(e.target.value)} rows="10" placeholder='Your Message'></textarea>

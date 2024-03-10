@@ -103,7 +103,8 @@ form{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
 }
 .namebar input{
     height: 2.5rem;
@@ -136,6 +137,9 @@ form{
         width: 7rem;
     }
     
+}
+.namebar .lastNameInput{
+    margin-right: 0;
 }
 .contactinfo .email{
     height: 2.5rem;
