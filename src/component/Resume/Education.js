@@ -79,7 +79,7 @@ const Education = ({ id }) => {
                                         <li>akashchakraborty4372@gmail.com</li>
                                     </ul>
                                     <DownloadButton
-                                        pdfUrl={resume}
+                                        pdfUrl="https://drive.google.com/file/d/1tvrJqbMjGcq7LSJ_eaiVY2W1yJjmCWLN/view?usp=sharing"
                                         fileName="resume.pdf"
                                     />
                                 </div>
